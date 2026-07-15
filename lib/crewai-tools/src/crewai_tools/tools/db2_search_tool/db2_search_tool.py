@@ -75,8 +75,8 @@ class DB2VectorSearchTool(BaseTool):
     _ALLOWED_METRICS: ClassVar[set[str]] = {
         "COSINE",
         "EUCLIDEAN",
-        "DOT_PRODUCT",
-        "L2_DISTANCE",
+        "DOT",
+        "MANHATTAN",
     }
 
     package_dependencies: list[str] = Field(

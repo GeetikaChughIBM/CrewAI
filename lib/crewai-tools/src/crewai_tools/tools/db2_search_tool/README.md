@@ -66,7 +66,7 @@ result = tool.run(
 
 - DB2 VECTOR datatype
 - VECTOR_DISTANCE search
-- COSINE similarity
+- Supported distance metrics: `COSINE`, `EUCLIDEAN`, `DOT`, `MANHATTAN`
 - Metadata filtering
 - Uses a custom embedding function if supplied, otherwise OpenAI embeddings
 
